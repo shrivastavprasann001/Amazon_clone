@@ -1,0 +1,38 @@
+/*
+Universal tag
+* {
+    color: aqua;
+}
+
+ Element Tag 
+h1 {
+    color: blueviolet;
+}
+
+h2 {
+    color: #00539C;
+}
+
+body {
+     Full body ka color change krne k liye 
+    background-color: #EEA47F;
+}
+
+button {
+    background-color: #EEA47F;
+}
+
+ This is ID Tag 
+#a {
+    color: rgb(0, 0, 0);
+}
+
+ This is class tag 
+.myclass { 
+     color: rgb(246, 0, 246); 
+ } */
+
+/* TEXT ALIGN */
+P{
+    text-align: right;
+}

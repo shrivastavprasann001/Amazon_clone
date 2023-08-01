@@ -1,0 +1,34 @@
+.media {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(82, 80, 77);
+    border: 2px solid rgb(255, 255, 255);
+    text-align: center;
+}
+
+#A {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 600PX;
+    width: 800PX;
+    background-color: rgb(185, 124, 44);
+    border: 5px ridge rgb(255, 5, 5);
+}
+
+.Box1 {
+    background-color: cadetblue;
+    font-weight: 800;
+}
+
+.Box2 {
+    background-color: rgb(24, 233, 240);
+    font-weight: 800;
+}
+
+/* MEDIA BOX */
+@media((min-width:200px) and (max-width:500px)) { 
+    .Box1 {
+        background-color: black;
+    }
+}

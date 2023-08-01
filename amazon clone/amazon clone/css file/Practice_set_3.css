@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#Head {
+    background-color: black;
+    height: 60px;
+
+}
+
+a {
+    margin-right: 200px;
+    text-decoration: none;
+}
+
+#logo {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 22px;
+    display: inline-block;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.Content {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+footer {
+    margin-top: 500px;
+    height: 100px;
+    background-color: rgb(25, 22, 22);
+}

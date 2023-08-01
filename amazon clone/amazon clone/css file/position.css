@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.position {
+    height: 100px;
+    margin: 20px;
+    width: 100px;
+    border: 2px dashed rgb(43, 33, 43);
+    display: inline-block;
+}
+#BOX1{
+    position: static;
+    /* No change in static  */
+    top: 100px;
+    bottom: 100px;
+    background-image: url("shoe 1.png");
+}
+
+#BOX2{
+position: relative;
+/* Relative to itself */
+top: 20px;
+
+}
+
+#BOX3{
+    position: absolute;
+    /* Relative to Parent "parent"= Head */
+top: 50px;
+width: 200px;
+
+}
+#BOX4{
+    position: fixed;
+    /* Relative to Browser Uses for header and footer  */
+top: 0px;
+left: 0px;
+margin: 0px;
+width: 100% ;
+border: none;
+text-align: center;
+font-size: larger;
+}
+
+#BOX5{
+    position: sticky;
+    /* Relative to Parent "parent"= Head */
+top: 0px;
+
+}

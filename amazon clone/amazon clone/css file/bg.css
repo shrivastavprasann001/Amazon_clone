@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header {
+    background-color: black;
+    height: 60px;
+}
+
+a {
+    margin-right: 270px;
+    margin-top: 0%;
+    margin-left: 10px;
+    position: relative;
+    bottom: 15px;
+    text-decoration: none;
+    font-size: larger;
+}
+
+#logo {
+    display: inline-block;
+    position: relative;
+    top: 8px;
+
+}
+
+#search {
+    position: relative;
+    bottom: 16px;
+    height: 20px;
+}
+
+.button {
+    position: relative;
+    bottom: 15px;
+    background-color: goldenrod;
+    height: 25px;
+    width: 70px;
+    font-size: medium;
+}
+
+.position {
+    height: 100px;
+    margin: 60px;
+    width: 100px;
+    /* border: 2px dashed rgb(43, 33, 43); */
+    display: inline-block;
+}
+
+#BOX1 {
+    position: static;
+    /* No change in static  */
+    top: 100px;
+    bottom: 100px;
+    background-image: url("shoe2.png");
+    background-size: contain;
+    border: 3px solid black;
+}
+
+#BOX2 {
+    /* No change in static  */
+    position: static;
+    top: 100px;
+    bottom: 100px;
+    background-image: url("shoe1.png");
+    background-size: contain;
+    border: 3px solid black;
+}
+
+#BOX3 {
+ /* No change in static  */
+ position: static;
+ top: 100px;
+ bottom: 100px;
+ background-image: url("shoe3.png");
+ background-size: contain;
+ border: 3px solid black;
+
+
+}
+
+#BOX4 {
+
+ /* No change in static  */
+ position: static;
+ top: 100px;
+ bottom: 100px;
+ background-image: url("shoe4.png");
+ background-size: contain;
+ border: 3px solid black;
+
+}
+
+#BOX5 {
+/* No change in static  */
+position: static;
+top: 100px;
+bottom: 100px;
+background-image: url("shoe5.png");
+background-size: contain;
+border: 3px solid black;
+}
+footer{
+    background-color: black;
+    height: 60px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    font-weight: 800;
+    text-align: center;
+    font-size: x-large;
+ 
+}

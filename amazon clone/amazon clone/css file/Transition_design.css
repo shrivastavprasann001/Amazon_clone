@@ -1,0 +1,36 @@
+#Box {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    color: blueviolet;
+    border: 2px solid salmon;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    transition: ease-in;
+    transition-property: all;
+    transition-duration: 1s;    /* yaha likhne se curser in and out dono jagah apply hoga  */
+    transition-timing-function: ease;
+    /* transition-delay: 1s; */
+    /* transform: rotate(30deg); */
+    /* transform: scale(2); */
+}
+
+#Box:hover {   /* Jab bhi hover karunga tab yeb property apply hongi */
+    background-color: rgb(232, 67, 67);
+    /* transition-duration: 2s; yaha likhne se only curser le jane pr colour change hoga  */
+    font-size: large;
+    color: rgb(4, 255, 255);
+    /* transform: rotate(30deg); */
+    transform: scale(2);
+
+    /* To Move the Object (X,Y) */
+    /* transform: translate(30px,50px); */
+
+    /* To Strech the Box */
+transform: skew(-20deg);
+
+}
